@@ -1,4 +1,4 @@
-###Program for medical workers
+***Program for medical workers***
 
 You can register patients, add their results, 
 display a list of recovered patients, 
