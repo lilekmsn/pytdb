@@ -121,13 +121,13 @@ while True:
         key = []
         for k in dic.keys():
             key += k
-            g = len(key)
-            h = len(mas)
-            r =int(g + h)
-            per=str(g * 100 / r)
-            hel=str(h * 100 / r)
-            print("Percentage of patients: " + per)
-            print("The percentage of healthy: " + hel)
+        g = len(key)
+        h = len(mas)
+        r =int(g + h)
+        per=str(g * 100 / r)
+        hel=str(h * 100 / r)
+        print("Percentage of patients: " + per)
+        print("The percentage of healthy: " + hel)
 
     if i == "5":
         print("Write another answer? (Yes/No): ", end="")
